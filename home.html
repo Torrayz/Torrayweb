@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css">
+    <title>Contoh Tabel HTML dengan Formulir Input</title>
+  </head>
+  <body>
+    <h2>Data Mahasiswa</h2>
+
+    <form>
+      <label for="nim">NIM:</label>
+      <input type="text" id="nim" name="nim" required />
+
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required />
+
+      <label for="jurusan">Jurusan:</label>
+      <input type="text" id="jurusan" name="jurusan" required />
+    </form>
+    <button type="button" onclick="addData()">Tambah Data</button>
+
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th>NIM</th>
+          <th>Nama</th>
+          <th>Jurusan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data akan ditambahkan secara dinamis melalui JavaScript -->
+      </tbody>
+    </table>
+  <script src="home.js"></script>
+  </body>
+</html>
