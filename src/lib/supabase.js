@@ -1,2 +1,1 @@
-import{createClient}from"https://esm.sh/@supabase/supabase-js@2.57.0";
-export const supabase=createClient("https://ndusjwlcvdovdjmivxkj.supabase.co","sb_publishable_c5vfP787ftelZv6qP2_zGQ__Jvc6_G2",{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
+import{createClient}from"https://esm.sh/@supabase/supabase-js@2.57.0";export const supabase=createClient("https://ndusjwlcvdovdjmivxkj.supabase.co","sb_publishable_c5vfP787ftelZv6qP2_zGQ__Jvc6_G2",{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
